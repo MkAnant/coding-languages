@@ -1,6 +1,11 @@
+// OUTPUT
 console.log("Hello World");
+
+// INPUT
+
 // for browser
 prompt("Please enter your input:"); 
+
 // for node js with 'npm i readline-sync'
 const readlineSync = require('readline-sync');
 let userInput = readlineSync.question('Please enter your input: ');
