@@ -1,2 +1,5 @@
+// OUTPUT
 print("Hello World")
+
+// INPUT
 input('Please enter your input')
