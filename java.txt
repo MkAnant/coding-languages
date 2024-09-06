@@ -1,3 +1,6 @@
+// OUTPUT
 System.out.println("Hello World");
+
+// INPUT
 Scanner myObj = new Scanner(System.in);
 String name = scanner.nextLine();
