@@ -1,5 +1,18 @@
 // OUTPUT
+
 print("Hello World")
 
 // INPUT
+
 input('Please enter your input')
+
+// IMPORTANT DATA TYPES
+
+int 0, 1000000000
+float 0.32, 10.232
+bool True, False
+str 'Hello', "World"
+list [8, 2, 3, []]
+tuple (('foo','bar'), 3)
+dict {'hello':'world', 'age':20}
+set {'apple', 'banana', 123}
