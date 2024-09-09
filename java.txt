@@ -4,3 +4,21 @@ System.out.println("Hello World");
 // INPUT
 Scanner myObj = new Scanner(System.in);
 String name = scanner.nextLine();
+
+// DATA TYPES
+
+PRIMITIVE TYPE:
+byte: 8-bit signed integer. Range: -128 to 127.
+short: 16-bit signed integer. Range: -32,768 to 32,767.
+int: 32-bit signed integer. Range: -2^31 to 2^31-1.
+long: 64-bit signed integer. Range: -2^63 to 2^63-1.
+float: 32-bit floating-point. It has a precision of about 7 decimal digits.
+double: 64-bit floating-point. It has a precision of about 15 decimal digits.
+char: 16-bit Unicode character. Represents a single character/letter.
+boolean: Represents two possible values: true or false.
+
+REFERENCE TYPE:
+Classes: e.g., String, Scanner, user-defined classes, etc.
+Arrays: e.g., int[], String[].
+Interfaces: e.g., Runnable, Comparable.
+Enums: Special classes representing a group of constants (unchangeable variables).
