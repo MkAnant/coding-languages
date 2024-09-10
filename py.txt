@@ -16,3 +16,11 @@ list [8, 2, 3, []]
 tuple (('foo','bar'), 3)
 dict {'hello':'world', 'age':20}
 set {'apple', 'banana', 123}
+
+// VARIABLES
+
+x = 10
+x = "hello"
+X = "John"  # Case-sensitive
+_score = 100  # must start with a letter or an underscore (_), not by digits
+a = b = c = 10
