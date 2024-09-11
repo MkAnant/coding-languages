@@ -17,3 +17,27 @@ Boolean true, false
 Undefined let something;
 Null let nothing = null;
 Object user = {name:'John', age:25}
+
+// VARIABLES
+let userName = "Alice";
+let userAge = 25;
+let isUserLoggedIn = true;
+const MAX_RETRIES = 5;
+const max_retries = 7; // different as Case sensitive
+
+-- VAR v/s LET v/s CONST --
+function example() {
+   var x = 10; // function-scoped
+   let y = 20; // block-scoped
+   const z = 30; // block-scoped, cannot be reassigned
+
+   if (true) {
+      let y = 40; // block-scoped within the if statement
+      console.log(x); // 10
+      console.log(y); // 40
+      // z = 40; // Error: Assignment to constant variable
+   }
+   console.log(y); // 20
+   console.log(x); // 10
+   // z = 40; // Error: Assignment to constant variable
+}
