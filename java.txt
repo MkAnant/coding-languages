@@ -22,3 +22,20 @@ Classes: e.g., String, Scanner, user-defined classes, etc.
 Arrays: e.g., int[], String[].
 Interfaces: e.g., Runnable, Comparable.
 Enums: Special classes representing a group of constants (unchangeable variables).
+
+// VARIABLES
+
+// Primitive types with valid names
+int userAge = 25;                 // starts with a letter
+double itemPrice = 19.99;         // follows camelCase convention
+char studentGrade = 'A';          // descriptive name
+boolean isJavaFun = true;         // boolean variable starting with "is"
+
+// Reference types with valid names
+String userName = "Anant";        // descriptive name for a String
+int[] luckyNumbers = {7, 11, 13}; // descriptive array name
+
+// Incorrect naming examples (commented out because they would cause errors)
+// int 1stNumber = 10;   // invalid: cannot start with a number
+// double item price = 19.99; // invalid: no spaces allowed
+// String class = "MyClass"; // invalid: can't use a reserved word (class)
