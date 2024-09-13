@@ -24,3 +24,33 @@ x = "hello"
 X = "John"  # Case-sensitive
 _score = 100  # must start with a letter or an underscore (_), not by digits
 a = b = c = 10
+
+// OPERATORS
+
+Arithmetic Operators:
+
++ (Addition), - (Subtraction), * (Multiplication), / (Division), % (Modulus), ** (Exponentiation), // (Floor division)
+
+Comparison Operators:
+
+== (Equal to), != (Not equal to), > (Greater than), < (Less than), >= (Greater than or equal to), <= (Less than or equal to)
+
+Logical Operators:
+
+and (Logical AND), or (Logical OR), not (Logical NOT)
+
+Assignment Operators:
+
+= (Assign), +=, -=, *=, /=, etc. (Modify and assign)
+
+Bitwise Operators:
+
+& (AND), | (OR), ^ (XOR), ~ (NOT), << (Left shift), >> (Right shift)
+
+Membership Operators:
+
+in (Exists in), not in (Does not exist in)
+
+Identity Operators:
+
+is (Same object), is not (Different objects)
