@@ -41,3 +41,37 @@ function example() {
    console.log(x); // 10
    // z = 40; // Error: Assignment to constant variable
 }
+
+// OPERATORS
+
+Arithmetic Operators:
+
++ (Addition), - (Subtraction), * (Multiplication), / (Division), % (Modulus), ** (Exponentiation)
+
+Comparison Operators:
+
+== (Equal to), != (Not equal to), === (Strict equal to), !== (Strict not equal to), > (Greater than), < (Less than), >= (Greater than or equal to), <= (Less than or equal to)
+
+Logical Operators:
+
+&& (Logical AND), || (Logical OR), ! (Logical NOT)
+
+Assignment Operators:
+
+= (Assign), +=, -=, *=, /=, %=, **= (Modify and assign)
+
+Bitwise Operators:
+
+& (AND), | (OR), ^ (XOR), ~ (NOT), << (Left shift), >> (Right shift), >>> (Zero-fill right shift)
+
+Type Operators:
+
+typeof (Type of), instanceof (Instance of)
+
+Nullish Coalescing Operator:
+
+?? (Nullish Coalescing)
+
+Optional Chaining Operator:
+
+?. (Optional Chaining)
