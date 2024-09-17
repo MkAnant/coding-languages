@@ -54,3 +54,18 @@ in (Exists in), not in (Does not exist in)
 Identity Operators:
 
 is (Same object), is not (Different objects)
+
+// CONDITIONAL STATEMENTS
+
+x = 10
+if x > 10:
+    print("x is greater than 10")
+elif x == 10:
+    print("x is equal to 10")
+else:
+    print("x is less than 10")
+
+x = 10
+message = "x is greater than 5" if x > 5 else "x is 5 or less" // One liner or ternary conditional where else is a must
+print(message)
+
