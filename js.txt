@@ -75,3 +75,40 @@ Nullish Coalescing Operator:
 Optional Chaining Operator:
 
 ?. (Optional Chaining)
+
+// CONDITIONAL STATEMENTS
+
+if else:
+let score = 75;
+
+if (score >= 90) {
+  console.log("Grade: A");
+} else if (score >= 80) {
+  console.log("Grade: B");
+} else if (score >= 70) {
+  console.log("Grade: C");
+} else {
+  console.log("Grade: F");
+}
+
+switch case:
+let day = 3;
+
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  default:
+    console.log("Invalid day");
+}
+
+ternary operator:
+let age = 20;
+let canVote = (age >= 18) ? "Yes, you can vote." : "No, you can't vote.";
+console.log(canVote);
