@@ -69,3 +69,12 @@ x = 10
 message = "x is greater than 5" if x > 5 else "x is 5 or less" // One liner or ternary conditional where else is a must
 print(message)
 
+ weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+match day:
+    case d if d in weekdays:  // can use array search
+        return "Weekday" // no need for break
+    case "Saturday" | "Sunday": // can use if else as well
+        return "Weekend"
+    case _:
+        return "Not a valid day"
+
