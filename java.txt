@@ -107,3 +107,71 @@ switch (day) {
 int age = 20;
 String canVote = (age >= 18) ? "Yes, you can vote." : "No, you can't vote.";
 System.out.println(canVote);
+
+
+// LOOPS:
+
+// For Loop:
+String[] fruits = {"apple", "banana", "cherry"};
+for (int i = 0; i < fruits.length; i++) {
+    System.out.println(fruits[i]);  // Iterates over the array by index
+}
+
+// For...Each Loop (Similar to JavaScript's for...of):
+for (String fruit : fruits) {
+    System.out.println(fruit);  // Directly iterates over array values
+}
+
+// forEach Loop (Array method):
+// Java Arrays do not have a direct forEach method, but you can use Streams:
+java.util.Arrays.stream(fruits).forEach((fruit) -> {
+    System.out.println(fruit);
+});
+
+// While Loop:
+int i = 1;
+while (i <= 5) {
+    System.out.println(i);
+    i++;
+}
+
+// Do While Loop (Executes at least once):
+i = 1;
+do {
+    System.out.println(i);
+    i++;
+} while (i <= 5);
+
+// Break Statement:
+for (i = 0; i < 10; i++) {
+    if (i == 5) {
+        break;  // Exit loop when i is 5
+    }
+    System.out.println(i);
+}
+
+// Continue Statement:
+for (i = 0; i < 5; i++) {
+    if (i == 2) {
+        continue;  // Skip iteration when i is 2
+    }
+    System.out.println(i);
+}
+
+// Nested Loops:
+for (i = 0; i < 3; i++) {
+    for (int j = 0; j < 2; j++) {
+        System.out.println("i = " + i + ", j = " + j);  // Outer and inner loop
+    }
+}
+
+// Labelled Loops with Break:
+outerLoop:
+for (i = 0; i < 3; i++) {
+    for (int j = 0; j < 3; j++) {
+        if (i == 1 && j == 1) {
+            break outerLoop;  // Breaks out of both loops
+        }
+        System.out.println("i = " + i + ", j = " + j);
+    }
+}
