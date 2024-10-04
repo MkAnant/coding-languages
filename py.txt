@@ -91,6 +91,8 @@ for fruit in fruits:
     print(fruit)
 for i in range(5):
     print(i)
+for index, value in enumerate(fruits):
+    print(index, value)
 
 While Loop:
 
